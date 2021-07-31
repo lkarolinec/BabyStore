@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Store</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="title-menu">
+            <h1 class="title">Baby Store</h1>
+            <button><img src="Icons/menu.png" alt="menu" class="button-menu"></button>
+        </div>
+
+        <div class="search-box">
+            <img src="Icons/loupe.png" alt="search" class="search-loupe">
+            <input type="text" placeholder="O que você está procurando?" id="search-input">
+        </div>
+    </header>
+
+    <main>
+
+        <div class="slideshow-container">
+    
+            <div class="mySlides fade">
+                <img src="Fotos/Imagem1slider.png" alt="Imagem 1" style="width: 100%">
+            </div>
+    
+            <div class="mySlides fade">
+                <img src="Fotos/Imagem2slider.png" alt="Imagem 2" style="width: 100%">
+            </div>
+    
+            <div class="mySlides fade">
+                <img src="Fotos/Imagem3slider.png" alt="Imagem 3" style="width: 100%">
+            </div>
+    
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <section class="departamentos">
+            <div class="dep-header">
+                <h3>Departamentos</h3>
+                <button>Ver mais</button>
+            </div>
+
+            <div class="box-dep">
+                <div class="box">
+                    <img src="Fotos/depbaby.png" alt="Bebês">
+                    <p>Bebês</p>
+                </div>
+    
+                <div class="box">
+                    <img src="Fotos/depgirl.png" alt="meninas">
+                    <p>Meninas</p>
+                </div>
+    
+                <div class="box">
+                    <img src="Fotos/depboy.png" alt="meninos">
+                    <p>Meninos</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="destaque">
+            <h3>Em destaque</h3>
+
+            <div class="d1">
+                <img src="Fotos/Destaque 1.png" alt="Destaque 01" style="width: 100%;">
+                <button>Confira a coleção</button>
+            </div>
+
+            <div class="grid-1">
+                <div class="d2">
+                    <img src="Fotos/Destaque 2.svg" alt="Destaque 02" style="width: 100%;">
+                    <button>Confira a coleção</button>
+                </div>
+                <div class="d3">
+                    <img src="Fotos/Destaque 3.png" alt="Destaque 03" style="width: 100%;">
+                    <button>Confira a coleção</button>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="d4">
+                    <img src="Fotos/Destaque 4 .png" alt="Destaque 04" style="width: 100%;">
+                    <button>Confira a coleção</button>
+                </div>
+                <div class="d5">
+                    <img src="Fotos/Destaque 5 .png" alt="Destaque 05" style="width: 100%;">
+                    <button>Confira a coleção</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="maisvendido">
+            <h3>O mais vendido no momento</h3>
+
+            <div class="vendas1">
+                <div class="v1">
+                    <img src="Fotos/prod1.png" alt="Produto 1" style="width: 100%;">
+                    <p>Body</p>
+                    <p>R$ 49,90</p>
+                </div>
+                <div class="v2">
+                    <img src="Fotos/prod2.png" alt="Produto 2" style="width: 100%;">
+                    <p>Conjunto</p>
+                    <P>R$ 89,90</P>
+                </div>
+            </div>
+
+            <div class="vendas2">
+                <div class="v3">
+                    <img src="Fotos/prod3.png" alt="Produto 3" style="width: 100%;">
+                    <p>Vestido</p>
+                    <P>R$ 49,90</P>
+                </div>
+                <div class="v4">
+                    <img src="Fotos/prod4.png" alt="Produto 4" style="width: 100%;">
+                    <p>Maiô</p>
+                    <p>R$ 59,90</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="redes">
+            <p>Siga nossas redes sociais</p>
+            <img src="/Icons/redes.png" alt="Redes sociais">
+        </div>
+
+        <div class="infos">
+            <div class="contato">
+                <div class="num">
+                    <img src="/Icons/telefone.png" alt="Número">
+                    <p> Atendimento </p>
+                </div>
+    
+                <div class="question">
+                    <img src="/Icons/perguntas.png" alt="Perguntas">
+                    <p>Perguntas frequentes</p>
+                </div>
+            </div>
+
+            <div class="payment">
+                <div class="pay">
+                    <p> Formas de pagamento </p>
+                    <img src="/Icons/card.png" alt="payment">
+                </div>
+
+                <div class="address">
+                    <p class="cnpj">BabyStore CNPJ: 00.000.000/1-88-36 </p>
+                    <p class="cep">CEP: 00.000-000 - São Paulo/SP</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+<script src="script.js"></script>
+</html>
