@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    @media (max-width: 1080px){
+      font-size: 93.75%;
+    }
+
+    @media (max-width: 720px){
+      font-size: 87.5%large;
+    }
+}
+
+body {  
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    max-width: 100%;
+ }
+
+border-style, input, textarea, button {
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
+}
+
+h1, h2, h3, h4, h5, h6, strong, span,p {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+}
+
+button {
+    cursor: pointer;
+}
+
+[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Cabeçalho */
+
+header{
+    padding: 5%;
+    background: #1C6985;
+}
+
+.title-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header button{
+    background: none;
+}
+
+.button-menu {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.title {
+    width: 6.65rem;
+    height: 1.45rem;
+    left: 1.123rem;
+    top: 14px;
+
+    font-size: 20.7376px;
+    line-height: 0.87rem;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+/*Caixa de pesquisa*/
+
+.search-box{
+    height: 1.23rem;
+    right: 1.25rem;
+    top: 0.6rem;
+    width: 20.18rem;
+
+    margin-left: 1.123rem;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: #F0EDF0;
+    border-radius: 5.57055px;
+}
+
+#search-input{
+    width: 100%;
+
+    top: 22.33px;
+
+    font-family: Sansation Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: small;
+    line-height: 9px;
+
+    text-align: center;    
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+    background: none;
+    border: none;
+}
+
+.search-loupe{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+/* Rodapé */
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    background: #1C6985;
+    padding: 5%;
+
+}
+
+.redes p{
+    font-family: Sansation Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+
+    color: #F3F6F7;
+}
+
+.redes img{
+    width: 151px;
+    height: 24px;
+    left: 103px;
+    top: 1592px;
+}
+
+/*Contato e perguntas*/
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.contato{
+    padding: 2%;
+    background: #209BC7;
+}
+
+.num{
+    display: flex;
+    padding-top: 2px;
+}
+
+.num p{
+    margin-left: 7px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+    line-height: 10px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #F3F6F7;
+}
+
+.question{
+    display: flex;
+    padding-top: 8px;
+}
+
+.question p{
+    line-height: 20px;
+    margin-left: 7px;
+
+    letter-spacing: 0.09em;
+
+    color: #F3F6F7;
+}
+
+/*Pagamento e informações*/
+
+.payment{
+    background: #1C6985;
+    font-size: 12px;
+
+}
+
+.pay{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay p{
+    line-height: 20px;
+    margin-left: 7px;
+
+
+    color: #F3F6F7;
+}
+
+.pay img{
+    width: 145px;
+    height: 18px;
+    left: 80px;
+    
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.address {
+    font-size: 15px;
+    line-height: 11px;
+    text-align: center;
+    letter-spacing: 0.09em;
+    
+    margin-top: 5px;
+
+    color: #F3F6F7;
+}
+
+.cnpj{
+    margin-top: 8px;
+    letter-spacing: 0.09em;
+    line-height: 18px;
+
+
+}
+
+.cep{
+    line-height: 18px;
+    letter-spacing: 0.09em;
+}
