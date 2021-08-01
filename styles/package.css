@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    html {
+        @media (max-width: 1080px){
+        font-size: 93.75%;
+    }
+
+    @media (max-width: 720px){
+        font-size: 87.5%large;
+        }
+}
+
+body {  
+    -webkit-font-smoothing: antialiased;
+}
+
+border-style, input, textarea, button {
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
+}
+
+h1, h2, h3, h4, h5, h6, strong, span,p {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+}
+
+button {
+    cursor: pointer;
+}
+
+[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Cabeçalho */
+
+header{
+    padding: 5%;
+    background: #1C6985;
+
+}
+
+.title-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header button{
+    background: none;
+    color: #FFFFFF;
+}
+
+.button-menu {
+    width: 20px;
+    height: 20px;
+    padding: 20%;
+}
+
+.title {
+    width: 106.28px;
+    height: 23.33px;
+    left: 18px;
+    top: 14px;
+
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20.7376px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+/*Caixa de pesquisa*/
+
+.search-box{
+    height: 19.54px;
+    left: 18px;
+    right: 20px;
+    top: 10px;
+    width: 323px;
+
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    background: #F0EDF0;
+    border-radius: 5.57055px;
+}
+
+#search-input{
+    width: 100%;
+    height: 25px;
+    left: 155.79px;
+    top: 22.33px;
+
+    font-family: Sansation Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: small;
+    line-height: 9px;
+
+    text-align: center;    
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+    background: none;
+    border: none;
+}
+
+.search-loupe{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+/* BODY */
+
+.head2{
+    display: flex;
+
+    width: 106px;
+    height: 30px;
+    left: 18px;
+    top: 113px;
+
+    margin-left: 18px;
+    margin-top: 20px;
+}
+
+.head2 p{
+    padding: 5px;
+    margin-left: 18px;
+}
+
+.list{
+    width: 301.78px;
+    height: 372px;
+    left: 29px;
+    top: 171px;
+
+    padding: 20px;
+    
+}
+
+.produto1{
+    display: flex;
+
+    text-align: center;
+
+    margin-bottom: 15px;
+}
+
+.produto1 img{
+    width: 88.26px;
+    height: 105.76px;
+    left: 29px;
+
+}
+
+.value{
+    width: 166.07px;
+    height: 79.71px;
+    top: 189.03px;
+
+    margin-top: 10px;
+}
+
+.produto{
+    width: 166.07px;
+    height: 15.18px;
+    left: 140px;
+    top: 189.03px;
+
+    font-size: 13.2857px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    margin-left: 10px;
+    margin-top: 5px;
+
+    color: #050505;
+}
+
+.valor{
+    width: 73.07px;
+    height: 26.57px;
+
+    font-size: 17.0816px;
+    line-height: 26px;
+
+    margin-top: 35px;
+    margin-left: 10px;
+    letter-spacing: 0.05em;
+
+    color: #273B7A;
+}
+
+.quant{
+    width: 49.35px;
+    height: 40px;
+    left: 281.43px;
+    top: 217.5px;
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+    margin-top: 40px;
+    margin-right: 5px;
+}
+
+.quant input{
+    width: 23.72px;
+    height: 23.72px;
+    left: 293.77px;
+    top: 218.45px;
+
+    background: #FFFFFF;
+
+    font-size: 17.0816px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #273B7A;
+}
+
+.quant button{
+    width: 23.72px;
+    height: 23.72px;
+    left: 281.43px;
+    top: 346.56px;
+
+    font-size: 17.0816px;
+    line-height: 26px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #273B7A;
+    border: none;
+    background: none;
+
+    padding: 7px;
+}
+
+/*FRETE E PRAZO*/
+
+.frete{
+    width: 306px;
+    height: 53px;
+    left: 27px;
+    top: 590px;
+
+    padding: 27px;
+}
+
+.frete p{
+    width: 152px;
+    height: 16px;
+    left: 27px;
+    top: 590px;
+
+    font-size: 14px;
+    line-height: 16px;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.calc{
+    width: 285px;
+    height: 29px;
+    left: 27px;
+    top: 614px;
+
+    background: rgba(163, 130, 130, 0.16);
+    border-radius: 20px;
+}
+
+.calc input{
+    background: none;
+    border: none;
+
+    width: 180px;
+    height: 29px;
+    left: 27px;
+    top: 614px;
+
+    text-align: center;
+}
+
+.calc cep{
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #615260;
+
+}
+
+.calc button{
+    width: 100px;
+    height: 29px;
+    left: 199px;
+    top: 614px;
+
+    background: #1C6985;
+    border-radius: 20px;
+
+    font-size: 14px;
+    line-height: 10px;
+    /* identical to box height */
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFCFC;
+}
+
+/*  Total e subtotal */
+
+.subtotal{
+    margin-left: 20px;
+    margin-top: 40px;
+
+    align-items: center;
+}
+
+.sub, .calfrete {
+    display: flex;
+    justify-content: space-between;
+
+    border: 0.5px dashed #000000;
+    text-align: center;
+
+}
+
+.p1{
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #050505;
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.sub p, .calfrete p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    margin-left: 10px;
+    margin-top: 10px;
+
+    color: #273B7A;
+}
+
+.total{
+ 
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.close{
+    width: 306px;
+    height: 39px;
+    left: 27px;
+    top: 847px;
+
+    color: #FFFFFF;
+    background: #50CE4D;
+    border-radius: 10px;
+
+    font-size: 16px;
+    line-height: 18px;
+
+    letter-spacing: 0.02em;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+

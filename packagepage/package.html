@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacola</title>
+
+    <link rel="stylesheet" href="../styles/package.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="title-menu">
+            <h1 class="title">Baby Store</h1>
+            <button><img src="../assets/icons/menu.png" alt="menu" class="button-menu"></button>
+        </div>
+
+        <div class="search-box">
+            <img src="../assets/icons/loupe.png" alt="search" class="search-loupe">
+            <input type="text" placeholder="O que você está procurando?" id="search-input">
+        </div>
+    </header>
+
+    <main>
+        <section class="head2">
+            <img src="../assets/icons/Sacola.png" alt="">
+            <p>Sacola</p>
+        </section>
+
+        <section class="list">
+            <div class="produto1">
+                <img src="../assets/images/short.png" alt="">
+                <div class="value">
+                    <p class="produto">Short Modelo</p>
+                    <p class="valor">R$ 79,90</p>
+                </div>
+                <div class="quant">
+                    <button>-</button>
+                    <input type="number" placeholder="1" id="quantbutton">
+                    <button>+</button>
+                </div>
+            </div>
+            <div class="produto1">
+                <img src="../assets/images/rectangleProd.png" alt="">
+                <div class="value">
+                    <p class="produto">Short Modelo</p>
+                    <p class="valor">R$ 79,90</p>
+                </div>
+                <div class="quant">
+                    <button>-</button>
+                    <input type="number" placeholder="1" id="quantbutton">
+                    <button>+</button>
+                </div>
+            </div>
+            <div class="produto1">
+                <img src="../assets/images/rectangleProd.png" alt="">
+                <div class="value">
+                    <p class="produto">Short Modelo</p>
+                    <p class="valor">R$ 79,90</p>
+                </div>
+                <div class="quant">
+                    <button>-</button>
+                    <input type="number" placeholder="1" id="quantbutton">
+                    <button>+</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="frete">
+            <p>Calcule frete e prazo</p>
+            <div class="calc">
+                <input type="text" placeholder="Digite seu CEP" id="cep">
+                <button>Aplicar</button>
+            </div>
+
+            <div class="subtotal">
+                <div class="sub">
+                    <p class="p1">Subtotal</p>
+                    <p>R$ 159,70</p>
+                </div>
+                <div class="calfrete">
+                    <p class="p1">Frete</p>
+                    <p>R$ 00,00</p>
+                </div>
+            </div>
+
+            <div class="total">
+                <p>Total</p>
+                <p>R$ 159,70</p>
+            </div>
+
+            <button class="close">Fechar pedido</button>
+        </section>
+    </main>
+</body>
+
+</html>
